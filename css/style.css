@@ -1,0 +1,103 @@
+/* Body */
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Add styles for the logo */
+  .navbar img {
+    height: 50px;
+    margin-left: 15px;
+  }
+
+  /* Add styles for the menu items */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 400 !important;
+  }
+
+  /* Add styles for the register button */
+  .navbar button {
+    background-color: #399CE3;
+    margin-right: 10px;
+    color: #fff !important;
+    margin-right: 20px;
+    float: right;
+    padding: 5px 20px !important;
+    border-radius: 9px;
+  }
+  .navbar button:hover{
+    background-color: #4db1f4;
+  }
+
+  .landing{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar img {
+    height: 50px;
+  }
+
+  /* Add styles for the menu items */
+  .navbar a {
+    margin-right: 15px;
+    color: #fff !important;
+    float: right;
+    font-size: 16px;
+    z-index: 9;
+  }
+
+  .info-container {
+    padding: 5px;
+    margin-top: 15vh;
+    left: 0 !important;
+  }
+
+  .info-container h1{
+   font-size: 40px;
+  }
+
+  .info-container span{
+    font-size: 64px;
+    color: #207590;
+  }
+
+  .info-container .btn{
+    background: #207590 !important;
+    font-weight: bold;
+    border-radius: 9px;
+    padding: 10px 20px;
+  }
+  
+
+  nav.navbar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .container .row{
+    padding-top: 56px; /* height of navbar */
+    z-index: 0;
+  }
+  .row{
+    justify-content: space-around !important;
+    align-items: center;
+  }
+
+.container h2{
+  font-size: 40px;
+  font-weight: 400;
+  color: #207590;
+  text-align: center;
+}
+
+/* Resource */
